@@ -177,7 +177,7 @@ padding-top: 25px;
   /* line-height:20px */
 }
 
-.columna-footer{
+/* .columna-footer{
   left: 300px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -185,4 +185,17 @@ padding-top: 25px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   justify-content: end;
+} */
+
+.columna {
+ width: 70%;
+ height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  /* align-content: center; */
+ 
+
 }
