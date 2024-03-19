@@ -190,25 +190,21 @@ padding-top: 25px;
 .columna {
   width: 70%;
   height: 200px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  /* align-content: center; */
+  display: flexbox;
+  /* grid-template-columns: repeat(3, 1fr); */
+  place-content: center;
+  padding: 10px;
+
+
 }
 
 .col {
   display: grid;
   place-content: center;
 }
+
 .final {
   width: 100%;
   height: 40px;
   background-color: black;
 }
-
-
-
-
-
