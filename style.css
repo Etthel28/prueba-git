@@ -31,19 +31,21 @@
 .encabezado {
   width: 100%;
   height: 100%;
-  background-color: rgb(255, 255, 96);
+  background-color: rgb(189, 188, 172);
   border: 10px;
+ /* box-shadow: 0px 5px rgb(129, 38, 129);;*/
 }
 
 .encabezado .titulo {
   padding: 10px;
   margin-left: 15%;
   text-shadow: bisque;
+
 }
 
 .encabezado .navbar {
   position: absolute;
-  background-color: rgb(255, 255, 96);
+  background-color: rgb(189, 188, 172);
   right: 15%;
   top: 30px;
 }
@@ -53,7 +55,12 @@
   transition: 1s;
 }
 
-
+/*.pie-encabezado {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(114, 114, 114);
+}
+*/
 /*
 .linea-divis-bg {
 background-color: rgb(97, 129, 233);	
